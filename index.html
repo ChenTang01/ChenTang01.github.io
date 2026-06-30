@@ -1,71 +1,193 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
-    <title>Chen Tang</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+      name="description"
+      content="Chen Tang is a Ph.D. student in Operations Management at Georgia Tech."
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <title>Chen Tang</title>
+    <link
+      rel="icon"
+      href="https://www.gatech.edu/themes/custom/gatech/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/site.css?v=20260630h" />
+    <script defer src="assets/js/site.js?v=20260629"></script>
   </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper" class="fade-in">
-      <!-- Intro -->
-      <div id="intro">
-        <h1>
-          Chen Tang's <br />
-          Homepage
-        </h1>
-        <header id="header">
-          <a href="pdf/file/Chen_Tang.pdf" class="logo">My CV</a>
-        </header>
+  <body class="home-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-site-header>
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-menu"
+        aria-label="Open navigation"
+        data-menu-button
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-scrim" data-menu-scrim></div>
+    <aside class="site-menu" id="site-menu" aria-hidden="true" data-site-menu>
+      <div class="site-menu__inner">
+        <p class="eyebrow">Navigate</p>
+        <nav aria-label="Primary navigation">
+          <a href="#top"><span>01</span>Home</a>
+          <a href="#education"><span>02</span>Education</a>
+          <a href="#research"><span>03</span>Research</a>
+          <a href="#service"><span>04</span>Service</a>
+          <a href="pdf/file/Chen_Tang.pdf"><span>05</span>My CV</a>
+        </nav>
       </div>
+    </aside>
 
-      <!-- Main -->
-      <div id="main">
-        
-        <h2>Chen Tang (唐晨)</h2>
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="hero__ambient" aria-hidden="true"></div>
+        <div class="hero__content">
+          <div class="hero__copy" data-reveal>
+            <h1>Chen Tang</h1>
+            <p class="hero__lede">
+              I study <span class="research-focus">sustainable operations</span>
+              and <span class="research-focus">operations in AI</span> using
+              optimization, game theory, and machine learning.
+            </p>
+            <div class="hero__actions">
+              <a
+                class="button button--primary button--hero"
+                href="pdf/file/Chen_Tang.pdf"
+                >My CV</a
+              >
+              <div class="hero__contact" aria-label="Contact information">
+                <span>Chen.Tang@scheller.gatech.edu</span>
+                <a href="https://github.com/ChenTang01"
+                  >GitHub <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </div>
 
-        <img class="image right" src="images/self1.jpg" alt="" />
-        <p>
-          <strong>Contact:</strong>
-          <a href="mailto:chen.tang@scheller.gatech.edu">Chen.Tang@scheller.gatech.edu</a> <br />
+          <figure class="portrait" data-reveal data-reveal-delay="1">
+            <div class="portrait__frame">
+              <img src="images/self1.jpg" alt="Portrait of Chen Tang" />
+            </div>
+          </figure>
+        </div>
 
-          <br />
+        <a class="scroll-cue" href="#education" aria-label="Scroll to education">
+          <span>Scroll</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
 
-          <strong>Georgia Institute of Technology</strong> <span style="float:right;">Atlanta, US</span><br />
-          Ph.D. in Operations Management <span style="float:right;">2025 – Present</span><br />
-          
-          <br />
-          
-          <strong>The Chinese University of Hong Kong, Shenzhen</strong> <span style="float:right;">Shenzhen, China</span><br />
-          M.Sc. in Data Science <span style="float:right;">2023 – 2025</span><br />
-          
-          <br />
-          
-          <strong>Shanghai University of Finance and Economics</strong> <span style="float:right;">Shanghai, China</span><br />
-          B.Mgt. in Business Analytics <span style="float:right;">2019 – 2023</span><br />
+      <section class="section education-section" id="education">
+        <div class="section-heading" data-reveal>
+          <h2>Education</h2>
+        </div>
 
-          <br />
+        <div class="education-list education-list--wide" data-reveal>
+          <article>
+            <div class="education-list__year">2025—</div>
+            <div>
+              <h3>Georgia Institute of Technology</h3>
+              <p>Ph.D. in Operations Management</p>
+            </div>
+          </article>
+          <article>
+            <div class="education-list__year">2023—25</div>
+            <div>
+              <h3>The Chinese University of Hong Kong, Shenzhen</h3>
+              <p>M.Sc. in Data Science</p>
+            </div>
+          </article>
+          <article>
+            <div class="education-list__year">2019—23</div>
+            <div>
+              <h3>Shanghai University of Finance and Economics</h3>
+              <p>B.Mgt. in Business Analytics</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-          <br />
+      <section class="section research-section" id="research">
+        <div class="section-heading" data-reveal>
+          <h2>Research</h2>
+        </div>
 
-        </p>
-      </div>    
-        
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+        <article class="research-paper" data-reveal>
+          <div class="research-paper__meta">
+            <span>2024</span>
+            <span>Solo Work</span>
+          </div>
+          <div class="research-paper__body">
+            <h3>
+              <a href="pdf/file/Algorithmic_Collusion_Paper.pdf">
+                Algorithmic Collusion of Dynamic Pricing: Past, Present and
+                Future
+              </a>
+            </h3>
+            <div class="research-paper__links" aria-label="Paper links">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4891632">SSRN</a>
+              <a
+                href="https://github.com/ChenTang01/Algorithmic_Collusion_in_Dynamic_Pricing"
+                >Tutorial</a
+              >
+              <a href="pdf/pre/collusion.pdf">Presentation</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section service-section" id="service">
+        <div class="section-heading" data-reveal>
+          <h2>Service</h2>
+        </div>
+        <div
+          class="education-list education-list--wide service-list"
+          data-reveal
+        >
+          <article>
+            <div class="education-list__year">Ad hoc Reviewer for</div>
+            <div>
+              <h3>Service Science</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section notes-section" id="notes">
+        <div class="notes-card" data-reveal>
+          <div class="notes-card__content">
+            <h2>Reading Notes</h2>
+            <p>
+              For each paper I read, I summarize several takeaways for myself:
+              an idea, a modeling approach, a step in a proof, or a conclusion.
+            </p>
+            <a class="button button--light" href="notes/">
+              Open the notes <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="notes-card__orb" aria-hidden="true"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-current-year></span> Chen Tang</p>
+    </footer>
   </body>
 </html>

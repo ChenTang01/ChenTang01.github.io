@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1686" height="648" viewBox="0 0 1686 648" role="img" aria-labelledby="title desc">
+  <title id="title">Flexibility designs for plant-product networks</title>
+  <desc id="desc">Five plant-product flexibility designs: dedicated design, full flexibility, long chain, k-chain with k equal to 3, and open chain.</desc>
+  <style>
+    .line { stroke: #2c2f37; stroke-width: 2.6; fill: none; }
+    .node { stroke: #2c2f37; stroke-width: 3.6; fill: #ffffff; }
+    .label { fill: #2c2f37; font-family: "Times New Roman", Times, serif; font-size: 40px; font-weight: 600; }
+    .tag { fill: #2c2f37; font-family: "Times New Roman", Times, serif; font-size: 31px; font-weight: 700; }
+    .caption { fill: #2c2f37; font-family: "Times New Roman", Times, serif; font-size: 38px; font-weight: 500; }
+  </style>
+
+  <g id="dedicated-design">
+    <text class="label" x="43" y="63">plant</text>
+    <text class="label" x="233" y="63">product</text>
+    <line class="line" x1="106" y1="104" x2="260" y2="104"/>
+    <line class="line" x1="106" y1="207" x2="260" y2="207"/>
+    <line class="line" x1="106" y1="313" x2="260" y2="313"/>
+    <line class="line" x1="106" y1="420" x2="260" y2="420"/>
+    <line class="line" x1="106" y1="527" x2="260" y2="527"/>
+    <rect class="node" x="54" y="78" width="52" height="52"/>
+    <rect class="node" x="54" y="181" width="52" height="52"/>
+    <rect class="node" x="54" y="287" width="52" height="52"/>
+    <rect class="node" x="54" y="394" width="52" height="52"/>
+    <rect class="node" x="54" y="501" width="52" height="52"/>
+    <circle class="node" cx="286" cy="104" r="26"/>
+    <circle class="node" cx="286" cy="207" r="26"/>
+    <circle class="node" cx="286" cy="313" r="26"/>
+    <circle class="node" cx="286" cy="420" r="26"/>
+    <circle class="node" cx="286" cy="527" r="26"/>
+    <text class="tag" x="16" y="615">(a)</text>
+    <text class="caption" x="66" y="615">Dedicated Design</text>
+  </g>
+
+  <g id="full-flexibility">
+    <text class="label" x="370" y="63">plant</text>
+    <text class="label" x="559" y="63">product</text>
+    <line class="line" x1="433" y1="104" x2="586" y2="104"/>
+    <line class="line" x1="433" y1="104" x2="586" y2="207"/>
+    <line class="line" x1="433" y1="104" x2="586" y2="313"/>
+    <line class="line" x1="433" y1="104" x2="586" y2="420"/>
+    <line class="line" x1="433" y1="104" x2="586" y2="527"/>
+    <line class="line" x1="433" y1="207" x2="586" y2="104"/>
+    <line class="line" x1="433" y1="207" x2="586" y2="207"/>
+    <line class="line" x1="433" y1="207" x2="586" y2="313"/>
+    <line class="line" x1="433" y1="207" x2="586" y2="420"/>
+    <line class="line" x1="433" y1="207" x2="586" y2="527"/>
+    <line class="line" x1="433" y1="313" x2="586" y2="104"/>
+    <line class="line" x1="433" y1="313" x2="586" y2="207"/>
+    <line class="line" x1="433" y1="313" x2="586" y2="313"/>
+    <line class="line" x1="433" y1="313" x2="586" y2="420"/>
+    <line class="line" x1="433" y1="313" x2="586" y2="527"/>
+    <line class="line" x1="433" y1="420" x2="586" y2="104"/>
+    <line class="line" x1="433" y1="420" x2="586" y2="207"/>
+    <line class="line" x1="433" y1="420" x2="586" y2="313"/>
+    <line class="line" x1="433" y1="420" x2="586" y2="420"/>
+    <line class="line" x1="433" y1="420" x2="586" y2="527"/>
+    <line class="line" x1="433" y1="527" x2="586" y2="104"/>
+    <line class="line" x1="433" y1="527" x2="586" y2="207"/>
+    <line class="line" x1="433" y1="527" x2="586" y2="313"/>
+    <line class="line" x1="433" y1="527" x2="586" y2="420"/>
+    <line class="line" x1="433" y1="527" x2="586" y2="527"/>
+    <rect class="node" x="381" y="78" width="52" height="52"/>
+    <rect class="node" x="381" y="181" width="52" height="52"/>
+    <rect class="node" x="381" y="287" width="52" height="52"/>
+    <rect class="node" x="381" y="394" width="52" height="52"/>
+    <rect class="node" x="381" y="501" width="52" height="52"/>
+    <circle class="node" cx="612" cy="104" r="26"/>
+    <circle class="node" cx="612" cy="207" r="26"/>
+    <circle class="node" cx="612" cy="313" r="26"/>
+    <circle class="node" cx="612" cy="420" r="26"/>
+    <circle class="node" cx="612" cy="527" r="26"/>
+    <text class="tag" x="374" y="615">(b)</text>
+    <text class="caption" x="428" y="615">Full Flexibility</text>
+  </g>
+
+  <g id="long-chain">
+    <text class="label" x="698" y="63">plant</text>
+    <text class="label" x="884" y="63">product</text>
+    <line class="line" x1="760" y1="104" x2="912" y2="104"/>
+    <line class="line" x1="760" y1="104" x2="912" y2="207"/>
+    <line class="line" x1="760" y1="207" x2="912" y2="207"/>
+    <line class="line" x1="760" y1="207" x2="912" y2="313"/>
+    <line class="line" x1="760" y1="313" x2="912" y2="313"/>
+    <line class="line" x1="760" y1="313" x2="912" y2="420"/>
+    <line class="line" x1="760" y1="420" x2="912" y2="420"/>
+    <line class="line" x1="760" y1="420" x2="912" y2="527"/>
+    <line class="line" x1="760" y1="527" x2="912" y2="527"/>
+    <line class="line" x1="760" y1="527" x2="912" y2="104"/>
+    <rect class="node" x="708" y="78" width="52" height="52"/>
+    <rect class="node" x="708" y="181" width="52" height="52"/>
+    <rect class="node" x="708" y="287" width="52" height="52"/>
+    <rect class="node" x="708" y="394" width="52" height="52"/>
+    <rect class="node" x="708" y="501" width="52" height="52"/>
+    <circle class="node" cx="938" cy="104" r="26"/>
+    <circle class="node" cx="938" cy="207" r="26"/>
+    <circle class="node" cx="938" cy="313" r="26"/>
+    <circle class="node" cx="938" cy="420" r="26"/>
+    <circle class="node" cx="938" cy="527" r="26"/>
+    <text class="tag" x="724" y="615">(c)</text>
+    <text class="caption" x="775" y="615">Long Chain</text>
+  </g>
+
+  <g id="k-chain">
+    <text class="label" x="1034" y="63">plant</text>
+    <text class="label" x="1222" y="63">product</text>
+    <line class="line" x1="1095" y1="104" x2="1225" y2="104"/>
+    <line class="line" x1="1095" y1="104" x2="1225" y2="207"/>
+    <line class="line" x1="1095" y1="104" x2="1225" y2="313"/>
+    <line class="line" x1="1095" y1="207" x2="1225" y2="207"/>
+    <line class="line" x1="1095" y1="207" x2="1225" y2="313"/>
+    <line class="line" x1="1095" y1="207" x2="1225" y2="420"/>
+    <line class="line" x1="1095" y1="313" x2="1225" y2="313"/>
+    <line class="line" x1="1095" y1="313" x2="1225" y2="420"/>
+    <line class="line" x1="1095" y1="313" x2="1225" y2="527"/>
+    <line class="line" x1="1095" y1="420" x2="1225" y2="420"/>
+    <line class="line" x1="1095" y1="420" x2="1225" y2="527"/>
+    <line class="line" x1="1095" y1="420" x2="1225" y2="104"/>
+    <line class="line" x1="1095" y1="527" x2="1225" y2="527"/>
+    <line class="line" x1="1095" y1="527" x2="1225" y2="104"/>
+    <line class="line" x1="1095" y1="527" x2="1225" y2="207"/>
+    <rect class="node" x="1043" y="78" width="52" height="52"/>
+    <rect class="node" x="1043" y="181" width="52" height="52"/>
+    <rect class="node" x="1043" y="287" width="52" height="52"/>
+    <rect class="node" x="1043" y="394" width="52" height="52"/>
+    <rect class="node" x="1043" y="501" width="52" height="52"/>
+    <circle class="node" cx="1251" cy="104" r="26"/>
+    <circle class="node" cx="1251" cy="207" r="26"/>
+    <circle class="node" cx="1251" cy="313" r="26"/>
+    <circle class="node" cx="1251" cy="420" r="26"/>
+    <circle class="node" cx="1251" cy="527" r="26"/>
+    <text class="tag" x="1028" y="615">(d)</text>
+    <text class="caption" x="1084" y="615"><tspan font-style="italic">k</tspan>-Chain (<tspan font-style="italic">k</tspan> = 3)</text>
+  </g>
+
+  <g id="open-chain">
+    <text class="label" x="1359" y="63">plant</text>
+    <text class="label" x="1547" y="63">product</text>
+    <line class="line" x1="1420" y1="104" x2="1579" y2="104"/>
+    <line class="line" x1="1420" y1="104" x2="1579" y2="207"/>
+    <line class="line" x1="1420" y1="207" x2="1579" y2="207"/>
+    <line class="line" x1="1420" y1="207" x2="1579" y2="313"/>
+    <line class="line" x1="1420" y1="313" x2="1579" y2="313"/>
+    <line class="line" x1="1420" y1="313" x2="1579" y2="420"/>
+    <line class="line" x1="1420" y1="420" x2="1579" y2="420"/>
+    <line class="line" x1="1420" y1="420" x2="1579" y2="527"/>
+    <line class="line" x1="1420" y1="527" x2="1579" y2="527"/>
+    <rect class="node" x="1368" y="78" width="52" height="52"/>
+    <rect class="node" x="1368" y="181" width="52" height="52"/>
+    <rect class="node" x="1368" y="287" width="52" height="52"/>
+    <rect class="node" x="1368" y="394" width="52" height="52"/>
+    <rect class="node" x="1368" y="501" width="52" height="52"/>
+    <circle class="node" cx="1605" cy="104" r="26"/>
+    <circle class="node" cx="1605" cy="207" r="26"/>
+    <circle class="node" cx="1605" cy="313" r="26"/>
+    <circle class="node" cx="1605" cy="420" r="26"/>
+    <circle class="node" cx="1605" cy="527" r="26"/>
+    <text class="tag" x="1389" y="615">(e)</text>
+    <text class="caption" x="1439" y="615">Open Chain</text>
+  </g>
+</svg>
